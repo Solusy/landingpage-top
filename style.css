@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background: #1F2937;
+  color: #F9FAF8;
+}
+
+.title-navbar {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  padding-left: 50px;
+}
+
+.navbar-links {
+  height: 100%;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: #F9FAF8;
+  padding: 20px;
+  font-size: 1.3rem;
+  
+}
+
+.navbar-links li:hover {
+  background-color: grey;
+}
+
+.hero {
+  display: flex;
+  position: relative;
+  align-items: center;
+  background: #1F2937;
+  color: #F9FAF8;
+}
+
+.hero-text {
+  padding: 60px;
+  
+}
+
+.hero-title {
+  font-size: 50px;
+}
+
+.hero-paragraph {
+  font-size: 20px;
+}
+
+.hero-image {
+  padding: 100px;
+}
+
+.hero-axolotl-img {
+  width: auto;
+  height: 500px;
+}
+
+.hero-button {
+  background-color: #3882F6;
+  border-color: #3882F6;
+  font-size: 20px;
+  color: #F9FAF8;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+
+}
